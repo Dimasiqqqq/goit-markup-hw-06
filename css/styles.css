@@ -76,8 +76,7 @@ div {
     }
 
 .nav-list {
-    display: flex;
-    gap: 40px;
+    display: none;
     }
 
 .logo {
@@ -153,9 +152,7 @@ div {
 }
 
 .adress-item {
-    padding: 24px 0;
-    display: flex;
-    gap: 40px;    
+    display: none;  
 }
 
 .adress-text:hover {
@@ -178,14 +175,14 @@ div {
     background-position: center;
     background-size: cover;
     background-color: var(--color-dark);
-    padding: 72px 0;
+    padding: 188px 0;
     background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/hero-bg.jpg);
     max-width: 1440px;
 }
 
 .hero-section {
     background-color: #2e2f42;
-  padding: 188px 0;
+  padding: 72px 0;
   margin: 0 auto;
  }    
  
@@ -304,8 +301,7 @@ margin-bottom: 8px;
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
-    
-}
+    }
 
 .our-team-img {
     border-radius: 0px 0px 4px 4px;
@@ -823,6 +819,24 @@ fill: var(--color-background-white);
      max-width: 768px;
     }
 
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .adress-item {
+        padding: 24px 0;
+        display: flex;
+        gap: 40px;    
+    }
+
+    .hero-title {
+    max-width: 496px;
+    max-height: 120px;
+    font-size: 56px;
+    margin-bottom: 36px;
+    }
+
     .advantage-icons {
         display: none;
     }
@@ -845,8 +859,21 @@ fill: var(--color-background-white);
         gap: 72px;
     }
 
-    .container .our-team-c {
-        max-width: 552px;
+    .our-team-c {
+        max-width: 768px;
+        padding: 0;
+    }
+
+    .our-team-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 64px;
+        column-gap: 24px;
+        justify-content: center;
+    }
+
+    .our-team-background {
+        margin: 0;
     }
 
     }
@@ -859,8 +886,19 @@ fill: var(--color-background-white);
     padding: 0 15px; 
     }
 
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .adress-item {
+        padding: 24px 0;
+        display: flex;
+        gap: 40px;    
+    }
+
     .hero-inner {
-        padding: 188px 0;
+        padding: 72px 72px;
     }
 
     .hero-title {
