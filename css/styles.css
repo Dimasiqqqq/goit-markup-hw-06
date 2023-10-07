@@ -142,6 +142,8 @@ div {
         
 
 .adress-text {
+    font-size: 16px;
+    font-weight: 400;
     color: inherit;
     line-height: 1.5;   
     letter-spacing: 0.02em;
@@ -183,7 +185,7 @@ div {
     background-color: var(--color-dark);
     padding: 188px 0;
     background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/Dark-bg_mob.jpg);
-    max-width: 1440px;
+    max-width: 100%;
     background-position: center;
     background-size: cover;
 }
@@ -855,17 +857,25 @@ fill: var(--color-background-white);
         gap: 40px;
     }
 
+    .adress-text {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+
     .adress-item {
         padding: 16px 0;
         display: block;
         gap: 40px;    
     }
 
+    
+
     .hero-inner {
         background-position: center;
         background-size: cover;
         background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/Dark-bg_tab.jpg);
-        max-width: 768px;
+        max-width: 100%;
     }
 
     .hero-title {
@@ -1018,6 +1028,15 @@ fill: var(--color-background-white);
         gap: 40px;    
     }
 
+    .adress-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: inherit;
+        line-height: 1.5;   
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     .hero-inner {
         background-position: center;
         background-size: cover;
@@ -1101,6 +1120,7 @@ fill: var(--color-background-white);
 
     .footer-logo-text {
         margin-right: 120px;
+        margin-bottom: 0;
     }
 
     .footer-list {
@@ -1210,19 +1230,6 @@ margin-bottom: 40px;
 
 .mobile-contacts-link.accent {
     color: var(--color-word-web);
-}
-
-.footer-social-div {
-}
-.footer-social-media {
-}
-.footer-list {
-}
-.footer-social-list {
-}
-.footer-socials-link {
-}
-.footer-svg-item {
 }
 
 .footer-social-div-mobile {
